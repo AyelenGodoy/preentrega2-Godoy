@@ -42,55 +42,42 @@
   </nav>
         <!-- NAVBAR -->
     <main>
-    <div class="seccion-pedidos">
+      <div class="seccion-pedidos">
         <div class="contenedor-pedidos">
             <div class="rappi-pedidos">
         <img class="rappi-banner" src="/Img/banner rappi.png" alt="bannerrappi">
         <h3>Ahora pedi online, y recibi en tu casa!</h3>
 
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur quia doloribus laboriosam necessitatibus
-            hic repellendus eveniet, iusto incidunt debitis similique quod odio consequuntur facilis blanditiis sed
-            placeat illo? Ex, corrupti.
-        </p>
-        <form action="/my-handling-form-page" method="post" class="FormularioDePedido">
-            <ul>
-                <li>
-                    <label for="name">Nombre:</label>
-                    <input type="text" id="name" name="user_name">
-                </li>
-                <li>
-                    <label for="mail">Correo electrónico:</label>
-                    <input type="email" id="mail" name="user_mail">
-                </li>
-                <li>
-                    <label for="msg">Mensaje:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-            </ul>
-        </form>
+      <form class=" pb-2 bg-body-black">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+        </div>
+        <label for="exampleInputEmail1" class="form-label">Numero celular</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+      </div>
+      <label for="exampleInputEmail1" class="form-label">Direccion</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+    </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Pedido</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Reserva</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
 
-        <form action="contact.php" method="post">
-            <div class="formularioDePedido"> <label for="name">Nombre</label> <input type="text" id="name"
-                    name="visitor_name" placeholder="Nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required> </div>
-            <div class="elem-group"> <label for="email">Numero de telefono</label> <input type="email" id="email"
-                    name="visitor_email" placeholder="Numero de telefono" required> </div>
-            <div class="elem-group"> <label for="Direccion">Direccion</label> <input type="email" id="email"
-                    name="direccion" placeholder="Direccion" required> </div>
-            <div class="elem-group"> <label for="direccion">Menu</label> <select id="department-selection"
-                    name="concerned_department" required>
-                    <option value="pastas">pastas</option>
-                    <option value="hamburguesa">hamburguesa</option>
-                    <option value="carnes">carnes</option>
-                    <option value="pizza">pizza</option>
-                    <option value="ensaladas">ensaladas</option>
-                </select> </div>
-            <div class="elem-group"> <label for="title">¿como queres tu pedido?</label> <input type="text" id="title"
-                    name="email_title" required placeholder="Describenos tu mensaje aqui" pattern=[A-Za-z0-9\s]{8,60}>
-            </div>
-            <div class="elem-group"> <label for="message">a que hora lo queres recibir?</label> <textarea id="message"
-                    name="visitor_message" placeholder="Escribe tu mensaje aquí." required></textarea> </div> <button
-                type="submit">Enviar mensaje</button>
-        </form>
+
+      <!-- FORMULARIO -->
+   
+
+        
     </main>
             </div>
         </div>
