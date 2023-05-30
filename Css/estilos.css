@@ -1,0 +1,273 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: black;
+}
+
+
+.imglogo {
+	position: relative;
+}
+
+.logo {
+	top: 10%;
+	left: 20%;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+
+}
+
+
+.logolink {
+
+	display: flex;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	vertical-align: auto;
+	font-size: 25px;
+	font-style: italic;
+	left: 20%;
+	text-decoration: none;
+	color: white;
+}
+
+
+header {
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	z-index: 100;
+	display: inline-block;
+	background-color: black;
+	margin: 0;
+}
+
+nav {
+	width: 100%;
+
+}
+
+nav ul {
+	display: inline;
+	list-style-type: none;
+	width: 100%;
+	margin-left: 30%;
+
+
+}
+
+nav li {
+	display: table-cell;
+	text-align: start;
+	padding: 20px;
+
+}
+
+nav li a {
+	background-color: rgba(50, 50, 50, .2);
+	border: 3px rgb(53, 52, 52);
+	font-family: helvetica;
+	font-size: 1rem;
+	padding: 10px;
+	text-decoration: none;
+	border-style: double;
+	color: rgb(112, 112, 112);
+	display: block;
+
+}
+
+.parallas,
+.main,
+.texto {
+	margin: 0 auto
+}
+
+
+
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 40rem;
+	max-width: 100%;
+	position: relative;
+	padding: 20%;
+
+
+}
+
+.texto {
+	left: 20%;
+	right: 20%;
+	font-size: 1.3rem;
+	text-align: justify center;
+	color: white;
+
+
+
+}
+
+.texto-interior {
+	border-style: double;
+	color: black;
+	font-size: 1.5rem;
+	font-weight: bold;
+	left: 18%;
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	/* width: 70%; */
+	background-color: hsla(180, 100%, 97%, 0.244);
+}
+
+.img-uno {
+	background-image: url(/Img/bannercomida.jpg);
+	background-size: contain;
+	width: 100%;
+
+}
+
+.img-tres {
+	background-image: url(/Img/pizza\ fondo.jpg);
+	background-size: cover;
+	width: 100%;
+}
+
+.img-dos {
+	background-image: url(/Img/pasta.png);
+	background-size: cover;
+	width: 100%;
+
+}
+
+.img-cuantro {
+	background-image: url(/Img/comidafondo.jpg);
+	background-size: cover;
+	width: 100%;
+
+}
+
+.img-cinco {
+	background-image: url(/Img/hamburguesas.jpg);
+	background-size: cover;
+	width: 100%;
+
+
+}
+
+
+.texto {
+	padding: 5% 0 5% 0;
+	/* width: 90%; */
+	left: 30px;
+
+}
+
+.btn {
+	padding: 5% 0 0 5%;
+}
+
+.btn2 {
+	width: 350px;
+	height: 30px;
+	border-radius: 15px;
+}
+
+.bt2 {
+	width: 80px;
+	border-radius: 20px;
+}
+
+.boton {
+	margin-right: 30%;
+	margin-left: 30%;
+	border: 1px solid #e60b0b;
+	padding: 10px;
+	background-color: #e60b0b;
+	color: #ffffff;
+	text-decoration: none;
+	font-family: 'Helvetica', sans-serif;
+	border-radius: 20px;
+}
+
+.contenidoMenu {
+	border: 0;
+	background-color: black;
+	color: white;
+}
+
+.menu {
+	border: 0;
+	width: 300px;
+	height: 300px;
+	color: white;
+
+}
+
+.controladordemenu {
+	height: 100%;
+
+
+}
+
+.footer {
+	background-color: black;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 18%;
+}
+
+.footer-logo {
+	width: 50px;
+}
+
+.footer-links a {
+	color: #666;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+
+/* Pagina de pedido */
+.contenedor-pedidos {
+	color: white;
+	text-align: justify;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.rappi-banner {
+	text-align: center;
+	width: 100%;
+	height: 400px;
+
+
+}
+
+.FormularioDePedido {
+	list-style-type: none;
+margin: 0;
+}
+
+.rappi-pedidos h3 {
+	font-size: 30px;
+}
+
+.rappi-pedidos {
+	margin: 10px;
+	padding: 30px;
+	right: 20%;
+	top:30px;
+
+}
