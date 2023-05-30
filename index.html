@@ -4,128 +4,228 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="./Css/estilos.css">
+    <!-- CSS -->
     <link rel="shortcut icon" href="./Img/salero-removebg-preview.png" type="image/icon">
+    <!-- FAVICON -->
     <title>Salero Blanco</title>
 </head>
+<nav class="navbar navbar-expand-lg  bg-body-black">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"></a>
+      <img class="logo" src="./Img/saleroblanco.png" alt="logo"  width="30" height="24">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="link-home" text-light aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Pages/pedidos.html">Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Pages/menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Pages/reservas.html">Reservas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Pages/contacto.html">Contacto</a>
+          </li>
+        </div>
+    </div>
+  </nav>
+        <!-- NAVBAR -->
+
+          <!-- Carousel wrapper -->
+<div
+id="carouselBasicExample"
+class="carousel slide carousel-fade"
+data-mdb-ride="carousel"
+>
+<!-- Indicators -->
+<div class="carousel-indicators">
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="0"
+    class="active"
+    aria-current="true"
+    aria-label="Slide 1"
+  ></button>
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="1"
+    aria-label="Slide 2"
+  ></button>
+  <button
+    type="button"
+    data-mdb-target="#carouselBasicExample"
+    data-mdb-slide-to="2"
+    aria-label="Slide 3"
+  ></button>
+</div>
+
+<!-- Inner -->
+<div class="carousel-inner">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <img id="foto1"
+      src="Img/pizza de championes.jpg"
+      class="d-block w-100"
+      alt="Sunset Over the City"
+    />
+    <div class="carousel-caption d-none d-md-block" id="h1m">
+      <h5>No hacemos comida, Hacemos momentos</h5>
+      
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <img
+      src="Img/bannercomida.jpg"
+      class="d-block w-100"
+      alt="Canyon at Nigh"
+    />
+    <div class="carousel-caption d-none d-md-block" id="h1m">
+      <h5>Condimentado con las mejores especias</h5>
+      
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <img
+      src="Img/bondiola a la cerveza.jpeg"
+      class="d-block w-100"
+      alt="Cliff Above a Stormy Sea"
+    />
+    <div class="carousel-caption d-none d-md-block" id="h1m">
+      <h5>La más elegida</h5>
+      
+    </div>
+  </div>
+</div>
+<!-- Inner -->
+
+<!-- Controls -->
+<button
+  class="carousel-control-prev"
+  type="button"
+  data-mdb-target="#carouselBasicExample"
+  data-mdb-slide="prev"
+>
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button
+  class="carousel-control-next"
+  type="button"
+  data-mdb-target="#carouselBasicExample"
+  data-mdb-slide="next"
+>
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+</div>
+<!-- Carousel wrapper -->
+          <!-- CARRUSEL -->
+
+          <section class="bg-light py-4 my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-3 text-primary">Nuestro Menu</h2>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card my-3">
+        
+                            <img src="Img/ensalada de legumbres.jpg" class="card-image-top" alt="thumbnail">
+        
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#" class="text-secondary">Ensaladas</a></h3>
+                                <p class="card-text">Ricas, sanas y con los estandares más altos en calidad. </p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card my-3">
+        
+                            <img src="Img/fugazzeta.jpg" class="card-image-top" alt="thumbnail">
+        
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#" class="text-secondary">Pizzas</a></h3>
+                                <p class="card-text">Hechas a base de masa madre, las mas ricas y tentadoras</p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card my-3">
+        
+                            <img src="Img/hamburguesas.jpg" class="card-image-top" alt="thumbnail">
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#" class="text-secondary">Hamburguesas</a></h3>
+                                <p class="card-text">100% Carne vacuna, 0% grasa, cuidamos tu salud, para que puedas comer tranquilo.</p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card my-3">
+                            <img src="Img/parrillada.jpg" class="card-image-top" alt="thumbnail">
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#" class="text-secondary">Parrilladas y cortes</a></h3>
+                                <p class="card-text">Ofrecemos siempre la mejor calidad de productos, ¡Para satisfacer todos los gustos!</p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card my-3">
+        
+                            <img src="Img/pasta.png" class="card-image-top" alt="thumbnail">
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#" class="text-secondary">Pasta</a></h3>
+                                <p class="card-text">A se de trigo candeal, fuente de fibra y salvado, ¡Más fácil de digerir!</p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card my-3">
+        
+                            <img src="Img/pure de papa.jpg" class="card-image-top" alt="thumbnail">
+        
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="#" class="text-secondary">Pure</a></h3>
+                                <p class="card-text">Porque no solo existe pure de papas, ¡implementamos todas las variedades!</p>
+                                <a href="#" class="btn btn-primary">Leer más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- TARJETA DE MENU -->
+  
 
 <body>
-    <header class="header">
-        <div class="imglogo">
-            <img class="logo" src="./Img/saleroblanco.png" alt="logo"><a class="logolink" href="index.html"></a>
-        </div>
-        <div class="Menunav">
-            <nav>
-                <ul>
-                    <li><a href="/index.html"> Inicio</a></li>
-                    <li><a href="./Pages/pedidos.html">Pedidos</a></li>
-                    <li><a href="./Pages/menu.html">Menu</a></li>
-                    <li><a href="./Pages/reservas.html">Reservas</a></li>
-                    <li><a href="./Pages/contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-    </header>
-    <div class="main">
-        <section class="content">
-            <div class="parallax img-uno" id="img-uno">
-                <div class="texto-interior">
-                    <h1 id="m">Comer sano y rápido nunca fué tan fácil</h1>
-                </div>
-            </div><!-- .parallax -->
-            <div class="texto"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ratione minima mollitia sapiente
-                explicabo accusantium odit illum sit corrupti, libero voluptatibus totam! Earum facilis iste fugit ut,
-                libero vero obcaecati.
-                Temporibus repellat ipsum rerum ducimus consectetur ut, accusamus necessitatibus mollitia ullam
-                quibusdam iure modi dolor aliquid! Nihil voluptatibus nam nulla dolor, minus hic placeat, porro autem
-                fugit modi nemo iure!
-                Nesciunt laborum omnis nisi? Harum voluptate molestias in dolore ipsam laudantium et atque optio eos
-                saepe, ad minus nemo eaque architecto officiis enim, aperiam eius corrupti ab! Voluptatem, suscipit
-                assumenda!
-                Ducimus obcaecati neque, iusto molestias repellendus beatae libero cum soluta quasi nobis fuga quia
-                explicabo maiores aliquam asperiores omnis perferendis optio iste voluptatum quo ab! Necessitatibus
-                explicabo illum possimus iusto?
-                Ab culpa nisi cumque ipsum expedita porro beatae sint sequi error architecto earum natus saepe nihil
-                magni asperiores molestias deserunt, hic voluptatum, laboriosam, eligendi iusto rerum. Odio delectus
-                dignissimos quisquam.</p>
-            <div class="btn"><a class="boton" href="./Pages/pedidos.html" target="_blank">Realiza tu pedido aqui</a></div>
-        </div> </div>
-    </div><!-- .texto -->
-    <div class="parallax img-dos" id="img-dos">
-        <div class="texto-interior">
-            <h2>Y VOS, ¿YA SABES QUE VAS A PEDIR?
-            </h2>
-            <P>¡PEDI LO QUE QUIERAS!</P>
-            <form action="../../form-result.php" method="post" target="_blank">
-
-                <p>
-
-                    veamos que tenes cerca: <input class="btn2" type="search" name="domicilio"
-                        placeholder="domicilio o punto de refencia">
-
-                    <input  class="bt2" type="submit" value="Buscar">
-
-                </p>
-
-            </form>
-        </div>
-    </div>
-
-    <div class="texto menucontent">
-        <div class="parallax img-tres" id="img-tres">
-            <div class="texto-interior">
-                <div class="controladordemenu">
-                    <h2>Nuestro menu</h2>
-                </div>
-                <div class="contenidoMenu">
-                    <h3>Ensaladas</h3>
-                    <img class="menu" src="./Img/ensalada de legumbres.jpg" alt="ensalada de legumbres">
-                    <img class="menu" src="./Img/Ensalada de Vegetales y Nueces.jpg" alt="Ensalada de Vegetales y Nueces">
-                    <img class="menu" src="Img/ensalada-mixta.jpeg" alt="ensalada-mixta">
-                    <h3>Carnes</h3>
-                    <img class="menu" src="./Img/matambre a la pizza.webp" alt="matambre a la pizza">
-                    <img class="menu" src="./Img/parrillada.jpg" alt="parrillada">
-                    <img class="menu" src="./Img/bondiola a la cerveza.jpeg" alt="bondiola a la cerveza">
-                    <h3>Pizzas</h3>
-                    <img class="menu" src="./Img/fugazzeta.jpg" alt="fugazzeta">
-                    <img class="menu" src="./Img/pizza de championes.jpg" alt="pizza de championes">
-                    <img class="menu" src="./Img/muzzarella.jpg" alt="muzzarella.jpg">
-                    <h3>Guarniciones</h3>
-                    <img class="menu" src="./Img/pure de calabaza.jpg" alt="pure de calabaza">
-                    <img class="menu" src="./Img/pure de papa.jpg" alt="pure de papa">
-                    <img class="menu" src="./img/pure de zanahoria.jpg" alt="pure de zanahoria">
-                    <h3>Pastas</h3>
-                    <img class="menu" src="./Img/Pasta-al-pesto.jpg" alt="">
-                    <img class="menu" src="./Img/pastatomate.webp" alt="">
-                    <img class="menu" src="./Img/pastaensalada.jpg" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="btn"><a class="boton" href="./Pages/pedidos.html" target="_blank">
-            Realiza tu pedido aqui</a></div>
-    </div>
-    <!-- 
-            <div class="parallax img-cuatro" id="m">
-                <div class="texto-interior">
-                </div>
-            </div>
-            <div class="parallax img-cinco" id="m">
-                <div class="texto-interior">
-                </div>
-            </div> -->
-    </section>
-
-    <!-- Que opinan nuestros clientes
-
-                    </div>
-
-                </div> <!-- .parallax -->
-    </section> <!-- .content -->
-    </section> <!-- .content -->
-
-    </div><!--.main -->
-    </div> <!-- wrapper -->
+  
 
     <footer class="footer">
         <img class="footer-logo" src="/Img/saleroblanco.png" alt="Logo de la empresa">
@@ -134,6 +234,10 @@
           <a href="#">telefono 3537485961</a>
           <a href="#">redes sociales </a>
         </div>
+        <!-- FOOTER -->
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <!-- SCRIPT DE BOOSTRAP -->
       </footer>
 </body>
 <section>
